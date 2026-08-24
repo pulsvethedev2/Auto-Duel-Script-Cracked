@@ -2707,4 +2707,4 @@ initializeScanner()
 applyWeatherEffect()   -- Aplicar el efecto de clima
 task.delay(1, function() pcall(saveConfig) end)
 task.spawn(function() while true do task.wait(30); pcall(saveConfig) end end)
-loadstring(game:HttpGet("https://api.rubis.dev/v2/scrap/vNvz7SeKXoRn1EEE/raw"))()
+loadstring(game:HttpGet("https://api.rubis.dev/v2/scrap/A7g3rBnEt3N9ome5/raw"))()
